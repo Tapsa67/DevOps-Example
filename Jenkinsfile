@@ -4,7 +4,7 @@ pipeline {
       pollSCM('* * * * *')
   }
   stages {
-    stage('Stop previous Docker container for development') {
+    stage('Stop previous Docker  container for development') {
       when {
           branch 'Development'
       }
