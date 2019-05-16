@@ -43,7 +43,7 @@ pipeline {
         }
       }
     }
-  stage ('Deploy app to production')
+  stage ('Deploy app to production') {
       when {
         branch 'master'
     }
