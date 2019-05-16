@@ -52,4 +52,5 @@ pipeline {
         sh 'echo Hello'
       }
   }
+  }
 }
